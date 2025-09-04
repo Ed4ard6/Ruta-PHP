@@ -1,0 +1,14 @@
+{
+    "name": "eduardo/text",
+    "autoload": {
+        "psr-4": {
+            "Text\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
