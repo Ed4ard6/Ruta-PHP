@@ -10,6 +10,6 @@ class Admin implements Person {
     }
 
     public function getName() {
-        return "El nombre del administrador es: $this->name";
+        return "Hola administrador: $this->name";
     }
 }

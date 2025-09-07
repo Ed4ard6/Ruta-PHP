@@ -13,8 +13,9 @@
             "email": "ej.machacon@gmail.com"
         }
     ],
-    "require": {},
-    "require-dev": {},
+    "require": {
+        "monolog/monolog": "^3.9"
+    },
     "minimum-stability": "stable",
     "license": "MIT"
 }

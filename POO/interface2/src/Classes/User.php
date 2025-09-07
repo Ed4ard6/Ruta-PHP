@@ -10,6 +10,6 @@ class User implements Person {
     }
 
     public function getName() {
-        return "El nombre del Usuario es: $this->name";
+        return "Hola usuario: $this->name";
     }
 }
