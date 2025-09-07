@@ -2,3 +2,5 @@
 [2025-09-07T23:09:08.337154+02:00] app.INFO: Se creó un User con nombre: Carlos [] []
 [2025-09-07T23:09:25.710176+02:00] app.INFO: Se creó un Admin con nombre: Eduardo [] []
 [2025-09-07T23:09:25.713308+02:00] app.INFO: Se creó un User con nombre: Carlos [] []
+[2025-09-08T01:02:17.972975+02:00] app.INFO: Se creó un Admin con nombre: Eduardo [] []
+[2025-09-08T01:02:17.983010+02:00] app.INFO: Se creó un User con nombre: Carlos [] []

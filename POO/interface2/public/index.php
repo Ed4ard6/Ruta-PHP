@@ -3,6 +3,7 @@ require_once __DIR__ . "/../vendor/autoload.php";
 
 use App\Classes\Admin;
 use App\Classes\User;
+use Monolog\Level;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
@@ -10,7 +11,7 @@ use Monolog\Handler\StreamHandler;
 // Configuración de Monolog
 // -------------------------
 $log = new Logger("app");
-$log->pushHandler(new StreamHandler(__DIR__ . "/../log.txt", Logger::DEBUG));
+$log->pushHandler(new StreamHandler(__DIR__ . '/../log.txt', Level::Debug));
 
 
 $admin = new Admin("Eduardo");
