@@ -1,0 +1,16 @@
+<?php
+require_once 'clases/Base2.php';
+require_once 'clases/Admin.php';
+require_once 'clases/User.php';
+require_once 'clases/Guest.php';
+
+
+$guest = new Guest();
+echo $guest->login() . "<br>";
+
+$user = new User('Eduardo');
+echo $user->login()  . "<br>";
+
+$admin = new Admin('José');
+echo $admin->login()  . "<br>";
+
