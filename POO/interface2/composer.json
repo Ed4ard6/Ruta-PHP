@@ -1,0 +1,20 @@
+{
+    "name": "eduar/interface2",
+    "description": "esto es un ejemplo de un proyecto real con la estructura correcta para tener un codigo con buenas practicas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ed4ard6",
+            "email": "ej.machacon@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
