@@ -1,0 +1,14 @@
+/* Aquí va tu CSS completo (copiado desde tu código original) */
+body {
+    font-family: sans-serif;
+    background-color: #0f1724;
+    color: white;
+}
+.card {
+    margin: 20px auto;
+    padding: 20px;
+    background: #0b1220;
+    border-radius: 10px;
+    max-width: 800px;
+}
+/* etc... (puedes reemplazarlo luego con tu CSS completo) */
