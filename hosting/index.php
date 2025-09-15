@@ -1,6 +1,7 @@
 <?php
 // Incluir el encabezado común para todas las páginas
-include 'includes/header.php';
+require_once 'config.php';
+require_once 'includes/header.php';
 
 // Mostrar los mensajes de estado del formulario
 $status = $_GET['status'] ?? '';
@@ -9,6 +10,8 @@ if ($status === 'success') {
 } elseif ($status === 'error') {
     echo '<div class="status-message status-error">Hubo un problema al enviar tu mensaje. Inténtalo de nuevo más tarde.</div>';
 }
+
+
 ?>
 
 <section class="hero">
