@@ -40,7 +40,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && array_key_exists('letra', $_POST)) 
     $letra_raw = isset($_POST['letra']) ? $_POST['letra'] : '';
     $mensaje = '';
 
-    // Validaciones tal como en tu versión original: vacío, más de 1 caracter, no letra
     if ($letra_raw === '') {
         $mensaje = "¡¡¡Tu es que eres BRUTO o te la das escribe una letra sopla picha!!!";
         $_SESSION['intentos'] += 2;
