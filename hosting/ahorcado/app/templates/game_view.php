@@ -29,7 +29,7 @@
                 <div style="font-size:13px; margin-top:6px;">Palabra: <strong><?= mb_strlen($palabra) ?> letras</strong></div>
             </div>
             <div style="position: absolute; top: 20px; left: 20px;">
-                <a href="/" class="back-btn">← Volver</a>
+                <a href="<?= BASE_PATH ?>index.php" class="back-btn">← Volver</a>
             </div>
         </header>
 
