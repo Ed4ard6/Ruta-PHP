@@ -4,6 +4,7 @@ session_start();
 // Incluir archivos de lógica del juego
 require_once __DIR__ . '/../vendor/autoload.php';
 
+
 // Inicializar el juego si no está activo
 if (!is_game_active()) {
     init_game();
